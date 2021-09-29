@@ -1,12 +1,11 @@
-import Encabezado from "./components/Encabezado";
-import PieDePagina from "./components/PieDePagina";
-const App = () => {
-  return (
-    <>
-      <Encabezado />
-      <PieDePagina />
-    </>
-  );
-};
+import Header from "./components/Header";
+import Main from "./components/Main";
+
+const App = () => (
+  <>
+    <Header />
+    <Main />
+  </>
+);
 
 export default App;
